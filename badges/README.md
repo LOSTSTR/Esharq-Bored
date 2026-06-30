@@ -5,8 +5,8 @@ they stay original and are loaded live from their own repos; nothing in this fol
 
 | Folder | For | Status |
 | --- | --- | --- |
-| `administration/` | Esharq administration | `esharq-admin.png` (the chalice) — in use |
-| `developers/` | Esharq developers | `esharq.png` (the EA logo) — in use |
+| `custom/` | Specific members (مخصّص) | per-member round image + RGB ring — see `custom/README.md` |
+| `developers/` | Esharq developers | `esharq.png` (the EA logo) — in use (first badge + shown in chat) |
 | `contributors/` | Esharq contributors | reserved — badge not created yet |
 | `donors/` | Esharq donors | reserved — donors pick their own image here |
 
