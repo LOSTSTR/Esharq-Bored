@@ -1,3 +1,6 @@
 {
-    "1214355476029120515": "https://raw.githubusercontent.com/LOSTSTR/Esharq-Bored/main/badges/custom/1214355476029120515.gif"
+    "1214355476029120515": {
+        "image": "https://raw.githubusercontent.com/LOSTSTR/Esharq-Bored/main/badges/custom/1214355476029120515.png",
+        "tooltip": "Early Supporter"
+    }
 }
