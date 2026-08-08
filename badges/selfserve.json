@@ -1,12 +1,13 @@
 {
     "1098303427009843342": {
-        "pending": {
+        "live": {
+            "image": "https://github.com/LOSTSTR/Esharq-Bored/releases/download/badge-store/1098303427009843342-1786232209140.png",
             "tooltip": "متبرّع إشراق · Esharq Donor",
             "effect": "pulse",
-            "reviewMessageId": "1535793896427356263",
-            "submittedAt": "2026-08-08T23:36:37.960Z"
+            "assetId": 506879947,
+            "approvedAt": "2026-08-08T23:36:49.654Z"
         },
-        "updatedAt": "2026-08-08T23:36:39.252Z"
+        "updatedAt": "2026-08-08T23:36:49.654Z"
     },
     "850239065495306240": {
         "live": {
