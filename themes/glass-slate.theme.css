@@ -225,41 +225,95 @@
     --neutral-100-hsl: var(--esharq-tc-h) calc(var(--saturation-factor, 1) * var(--esharq-tc-s)) calc(var(--esharq-tc-l) - 98.431%);
 }
 
-[class^="bg_"], [class*=" bg_"],
-[class^="appMount_"], [class*=" appMount_"] {
+[class^="bar_"],
+[class*=" bar_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-69-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
 
-[class^="guilds_"], [class*=" guilds_"] {
+[class^="guilds_"],
+[class*=" guilds_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-69-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
 
-[class^="chat_"], [class*=" chat_"],
-[class^="chatContent_"], [class*=" chatContent_"] {
-    background-color: color-mix(in srgb, hsl(var(--neutral-69-hsl)) 70%, transparent) !important;
-    backdrop-filter: blur(14px) saturate(140%) !important;
-}
-
-[class^="title_"], [class*=" title_"] {
+[class^="sidebar_"] [class^="container_"],
+[class*=" sidebar_"] [class^="container_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-66-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
 
-[class^="members_"], [class*=" members_"] {
+[class^="title_"],
+[class*=" title_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-66-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
 
-[class^="panels_"], [class*=" panels_"] {
+[class^="chat_"],
+[class*=" chat_"],
+[class^="chatContent_"],
+[class*=" chatContent_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-69-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="members_"],
+[class*=" members_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-66-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="scrollableContainer_"],
+[class*=" scrollableContainer_"],
+[class^="channelTextArea_"],
+[class*=" channelTextArea_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-64-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
 
-[class^="container_"], [class*=" container_"],
-[class^="content_"], [class*=" content_"],
-[class^="contentHeader_"], [class*=" contentHeader_"] {
+[class^="panels_"],
+[class*=" panels_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-64-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="searchBar_"],
+[class*=" searchBar_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-64-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="menu_"],
+[class*=" menu_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-64-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="card_"],
+[class*=" card_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-62-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="banner_"],
+[class*=" banner_"] {
     background-color: color-mix(in srgb, hsl(var(--neutral-66-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="modal_"],
+[class*=" modal_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-66-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+[class^="content_"],
+[class*=" content_"] {
+    background-color: color-mix(in srgb, hsl(var(--neutral-64-hsl)) 70%, transparent) !important;
+    backdrop-filter: blur(14px) saturate(140%) !important;
+}
+
+.esharq-rise {
+    background-color: color-mix(in srgb, hsl(var(--neutral-62-hsl)) 70%, transparent) !important;
     backdrop-filter: blur(14px) saturate(140%) !important;
 }
