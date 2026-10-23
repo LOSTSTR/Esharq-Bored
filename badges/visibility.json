@@ -1,7 +1,8 @@
 {
     "769578927546040350": {
         "user": {
-            "profile": false
+            "profile": false,
+            "chat": false
         }
     }
 }
